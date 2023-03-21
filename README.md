@@ -12,11 +12,13 @@
 
 ### Brief introduction
 [img2dataset](https://github.com/rom1504/img2dataset) can easily turn large sets of image urls to an image dataset. Can download, resize and package 100M urls in 20h on one machine. Which is a simple and convenient tool that people
-can use it as a image dataset source retrieve toolkit.
-Unfortunately, It not provide toolkit that can transform the download dataset into Huggingface official dataset format. i.e. [datasets](https://github.com/huggingface/datasets).
+can use it as a image dataset source retrieve toolkit.<br/>
+
+Unfortunately, It not provide toolkit that can transform the download dataset into Huggingface official dataset format. i.e. [datasets](https://github.com/huggingface/datasets).<br/>
+
 If one take the dataset format in  [datasets](https://github.com/huggingface/datasets)'s form, then it will be a seamless connection between [img2dataset](https://github.com/rom1504/img2dataset) and massive projects in the Huggingface transformers' ecosphere.
 This project give a simple toolkit to transform datasource generate by img2dataset from parquet file to Huggingface dataset. And test it on a sample
-of Conceptual Captions (CC3M) dataset. And also worked for the fully Conceptual Captions (CC3M) dataset (I have test it by training [svjack/concept-caption-3m-sd-lora-en](https://huggingface.co/svjack/concept-caption-3m-sd-lora-en) and [svjack/concept-caption-3m-sd-lora-zh](https://huggingface.co/svjack/concept-caption-3m-sd-lora-zh) from 400000 images download by this project)
+of Conceptual Captions (CC3M) dataset. And also works for the fully Conceptual Captions (CC3M) dataset (I have test it by training [svjack/concept-caption-3m-sd-lora-en](https://huggingface.co/svjack/concept-caption-3m-sd-lora-en) and [svjack/concept-caption-3m-sd-lora-zh](https://huggingface.co/svjack/concept-caption-3m-sd-lora-zh) from 400000 images download by this project)
 
 ### Installtation
 ```bash
